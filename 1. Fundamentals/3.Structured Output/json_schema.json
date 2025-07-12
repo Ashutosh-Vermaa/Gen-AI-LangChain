@@ -1,0 +1,11 @@
+{
+    "title": "student",
+    "description": "this is an example of json schema. It has these listed attributes. required  attribute makes sure the given attribute is present",
+    "type": "object",
+    "properties": {
+        "name":"string",
+        "age": "integer"
+    },
+    "required":["name"]     
+
+}
